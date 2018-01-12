@@ -1,0 +1,94 @@
+#regform {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    width: 655px;
+    height: auto;
+    margin-top: 120px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #f7f7f7;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px #888888;
+    overflow: auto;
+}
+
+#regform h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+#regform input[type="text"],
+#regform input[type="password"],
+#regform input[type="email"],
+#regform textarea,
+#regform select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0 20px 0 20px;
+    outline: 0;
+    padding: 15px;
+    width: 250px;
+    display: block;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+#regform select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+#regform button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+#regform button:hover{
+    background-color: #2f9d4f;
+}
+
+#regform fieldset {
+    margin-bottom: 30px;
+    border: none;
+}
+
+#regform legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#regform label {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+#regform label.light {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 675px) {
+
+    form {
+        max-width: 675px;
+    }
+
+}

@@ -1,0 +1,195 @@
+#search, 
+#submit {
+    float: left;
+}
+
+#search {
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 5px 9px;
+    height: 23px;
+    width: 500px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+#search-options {
+    margin-top: 0px;
+    width: 100px;
+    margin-left: 445px;
+}
+
+.fields{
+    background-color: #9999ff;
+    border-radius: 25px;    
+    height: 100px;
+    width:700px;
+    background-size: 700px 200px;
+}
+/* ----------------------- */
+
+#submit
+{       
+    background-color: #ffd633;
+    background-image: linear-gradient(#fff4cc, #ffd633);
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff4cc #ffd633 #ffcc00;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 30px 0 0 10px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover {       
+    background-color: #e6b800;
+    background-image: linear-gradient(#ffd11a, #e6b800);
+}   
+
+#submit:active {       
+    background: #ffea99;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+.collapsibleList li > input + * {
+ display: none;
+}
+ 
+.collapsibleList li > input:checked + * {
+ display: block;
+}
+
+.collapsibleList li > input {
+ display: none;
+}
+
+.collapsibleList label {
+ cursor: pointer;
+}
+
+.sxoles, .tmhmata{
+    list-style-type: none;
+}
+
+.search-categories-all-checkbox{
+    margin-top: 20px;
+    margin-left: 19px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    width: 400px;
+    height:25px;
+
+    background-color: #9999ff;
+    background-image: linear-gradient(#e5e5ff, #9999ff);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding: 0;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border-radius: 25px;
+}
+
+.collapsibleList{
+    margin-top: 0px;
+    margin-left: -20px;
+}
+
+.collapsibleList > li{
+    padding: 3px;
+}
+label[for=book-types]{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #800000;
+    font-weight: bold;
+}
+
+label[for=mylist-node1]{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #800000;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.list1{
+    background-color: #9999ff;
+    background-image: linear-gradient(#e5e5ff, #9999ff);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding: 0;
+    cursor: pointer;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+
+    list-style-type: none;
+    border-radius: 25px;
+}
+
+label[for=mylist-node2]{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #800000;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.list2{
+    background-color: #9999ff;
+    background-image: linear-gradient(#e5e5ff, #9999ff);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding: 0;
+    cursor: pointer;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+
+    list-style-type: none;
+    border-radius: 25px;
+}
+
+.book-type{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:265px;
+    height: 150px;
+    border-radius: 25px;
+
+    background-color: #9999ff;
+    background-image: linear-gradient(#e5e5ff, #9999ff);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding: 0;
+    cursor: pointer;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.book-type-checkboxes{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.search-categories, .book-type{
+    float:left;
+}
+
+.search-categories{
+
+}

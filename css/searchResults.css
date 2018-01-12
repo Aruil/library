@@ -1,0 +1,70 @@
+.resultList{
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.result{
+    display: block;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #8c8c8c;
+    border-radius: 15px;
+    background-color: #e6e6e6;
+    box-shadow: 1px 1px 1px #888888;
+    text-align: left;
+}
+
+.resultText{
+    float:left;
+    width: 70%;
+}
+
+.result a:link, .result a:active, .result a:visited{
+    font-weight: bold;
+    color: #57a9d9;
+    text-decoration: underline;
+}
+
+.result a:hover{
+    color: #2a86bb;
+}
+
+.lendButton{
+    color: #FFF;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100px;
+    background-color: #0066cc;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+
+.lendButton:hover{
+    background-color: #0059b3;
+}
+
+.lendButtonInactive{
+    color: #FFF;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100px;
+    background-color: #cccccc;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 10px;
+    float: right;
+}

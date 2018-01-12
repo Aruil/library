@@ -1,0 +1,138 @@
+#login {
+    transition: all 0.5s ease-out;
+    position: absolute;
+    display: block;
+    margin-top: 130px;
+    right: 8px;
+    width: 300px;
+    height: 18px;
+    border: 1px solid;
+    padding: 1px 5px;
+    box-shadow: 1px 1px 1px #888888;
+    background-color: #57a9d9;
+    background-image: linear-gradient(#97cae7, #57a9d9);
+}
+
+.link1:visited, .link1:link, .link1:active {
+    color: #ff0000;
+    text-decoration: underline;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.link2:visited, .link2:link, .link2:active {
+    color: #ff0000;
+    text-decoration: underline;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.link2:hover, .link1:hover{
+    color: #06F;
+}
+
+#loginBox {
+    transition: all 0.5s ease-out;
+    position: absolute;
+    right: 8px;
+    float: right;
+    width: 300px;
+    height: 148px;
+    border: 1px solid;
+    padding: 1px 5px;
+    box-shadow: 1px 1px 1px #888888;
+    background-color: #57a9d9;
+    background-image: linear-gradient(#97cae7, #57a9d9);
+    opacity: 0;
+    pointer-events: none;
+}
+
+#uoaAuth {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 280px;
+    height: 45px;
+    border: none;
+    background-color: #0066cc;
+}
+
+#uoaAuth:hover{
+    background-color: #004c99;
+}
+
+.img1{
+    margin-left: 10px;
+    margin-top: 3px;
+    float: left;
+}
+
+.text, .text:link, .text:active, .text:hover, text:visited {
+    margin-left: 15px;
+    margin-top: 5px;
+    float: left;
+    font-size: small;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.empty{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.img2{
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+.nonUoaAuth input[type=submit]{
+    float: right;
+    text-align: center;
+    height: 23px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 40%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    background-color: #0066cc;
+    border: 1px solid;
+    border-color: #00264d;
+}
+
+.nonUoaAuth input[type=submit]:hover{
+    height: 23px;
+    background-color: #004c99;
+}
+
+.nonUoaAuth input[type=text], input[type=password]{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 92%;
+}
+
+.cancel{
+    height: 24px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 40%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    background-color: #800000;
+    border: 1px solid;
+    border-color: #4d0000;
+}
+
+.cancel:hover{
+    background-color: #4d0000;
+}
